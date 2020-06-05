@@ -1,7 +1,7 @@
 # A simple minizer for Clarity
 
-__Declar__, somehting to make your Clarity contract less clear, but smaller, so it will cost less.
-Consider not using to make your deployed contract less nebulous, or publish the non minimized version.
+__Declar__, somehting to make your Clarity contracts less clear, but smaller, so it will cost less to deploy.
+Consider not using to make your deployed contracts less nebulous, or publish the non minimized version.
 Many people will forever thank you!
 
 ### Rules
@@ -23,6 +23,7 @@ It can already shave 40% from the swapr contract, which is the biggest Clarity c
 - [x] do not rename all strings and numbers
 - [x] do not rename principals
 - [ ] do not rename tuple keys as they might be returned (unless can figure out this is the case)
+- [ ] include a way to add the url of the non minimized contract (using an url shortener too?)
 
 ### How to run declar
 You just need to pass the contract path, and the path for outputing the minimized contract
@@ -43,8 +44,8 @@ node declar.js contracts/my-token.clar contracts/my-token-min.clar
 The Clarity parser, implemented in plain javascript, should be usable as a standalone module.  npm version should be available
 soon.  For now, you can require using the github url using
 ```
-npm i github:psq/swapr
+npm i github:psq/declar
 ```
 
-###
+### Report issues
 If you try it and the minized contract does not work or does not look correct, submit a PR, or crate an issue.  Thanks!
