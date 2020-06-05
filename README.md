@@ -46,3 +46,5 @@ soon.  For now, you can require using the github url using
 npm i github:psq/swapr
 ```
 
+===
+If you try it and the minized contract does not work or does not look correct, submit a PR, or crate an issue.  Thanks!
