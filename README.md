@@ -48,4 +48,4 @@ npm i github:psq/declar
 ```
 
 ### Report issues
-If you try it and the minized contract does not work or does not look correct, submit a PR, or crate an issue.  Thanks!
+If you try it and the minized contract does not work or does not look correct, submit a PR, or create an issue.  Thanks!
