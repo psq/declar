@@ -1,0 +1,25 @@
+{
+  "name": "declar",
+  "version": "0.0.1",
+  "author": {
+    "name": "Pascal Belloncle",
+    "email": "psq@nanorails.com"
+  },
+  "repository": "https://github.com/psq/declar.git",
+  "private": false,
+  "main": "lib/index",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "mocha 'test/unit/*.ts'"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "chai-string": "^1.5.0"
+  },
+  "dependencies": {
+  }
+}
