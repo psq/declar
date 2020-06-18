@@ -1,4 +1,4 @@
-# A simple minizer for Clarity
+# A simple minimizer for Clarity
 
 __Declar__, somehting to make your Clarity contracts less clear, but smaller, so it will cost less to deploy.
 Consider not using to make your deployed contracts less nebulous, or publish the non minimized version.
